@@ -31,7 +31,7 @@ header span{
     width: 100%;
     height: 92vh;
     padding: 30px 70px;
-    background: linear-gradient(rgba(76, 175, 80, 0),rgba(76, 175, 80, 1)),url(../Image/3.jpg);
+    background: linear-gradient(rgba(76, 175, 80, 0),rgba(76, 175, 80, 1)),url(./Image/3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
