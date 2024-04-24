@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'calibri';
 }
- 
+  
 header{
     width: 100%;
     background-color: black;
@@ -31,7 +31,7 @@ header span{
     width: 100%;
     height: 92vh;
     padding: 30px 70px;
-    background: linear-gradient(rgba(76, 175, 80, 0),rgba(76, 175, 80, 1)),url(./Image/3.jpg);
+    background: linear-gradient(rgba(76, 175, 80, 0),rgba(76, 175, 80, 1)),url(./Image/8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -135,6 +135,7 @@ input[type=text], input[type=email], input[type=tel], textarea{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 
 .article2 img{
@@ -153,8 +154,15 @@ input[type=text], input[type=email], input[type=tel], textarea{
 .article2 .col{
     width: 25%;
     height: auto;
+    padding: 10px;
     /* box-shadow: 0 0 5px; */
     padding-bottom: 20px;
+    transition: 0.5s ease;
+}
+
+.article2 .col:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -177,7 +185,7 @@ input[type=text], input[type=email], input[type=tel], textarea{
 
 .section3{
     width: 100%;
-    height: 67vh;
+    height: 80vh;
     background-color: rgb(62, 60, 60);
     padding: 50px 75px;
     margin-top: 55px;
@@ -226,7 +234,7 @@ input[type=text], input[type=email], input[type=tel], textarea{
 
 .article3 span{
     border: 3px #ffffff solid;
-    padding: 10px 135px;
+    padding: 10px 110px;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -236,7 +244,7 @@ input[type=text], input[type=email], input[type=tel], textarea{
 /*Section three(4) starts*/
 .section4{
     width: 100%;
-    height: 67vh;
+    height: 70vh;
     padding: 50px 75px;
     margin-top: 50px;
 }
@@ -284,14 +292,14 @@ input[type=text], input[type=email], input[type=tel], textarea{
 
 .article4 span{
     border: 3px #000000 solid;
-    padding: 10px 135px;
+    padding: 10px 110px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .section5{
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     background: rgba(76, 175, 80, 1);
     padding: 50px 75px;
     font-size: 18px;
@@ -312,7 +320,7 @@ input[type=text], input[type=email], input[type=tel], textarea{
 
 .section6{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     padding: 50px 75px;
     margin-top: 30px;
 }
@@ -325,6 +333,13 @@ input[type=text], input[type=email], input[type=tel], textarea{
 
 .article6 .class-div{
     width: 25%;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.article6 .class-div:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.1)
 }
 
 .article6 img{
